@@ -14,12 +14,6 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 # Contest setup
 
-## 🐺 C4: Set up repos
-- [ ] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
-- [ ] Add sponsor to this private repo with 'maintain' level access.
-- [ ] Send the sponsor contact the url for this repo to follow the instructions below and add contracts here. 
-- [ ] Delete this checklist and wait for sponsor to complete their checklist.
-
 ## ⭐️ Sponsor: Provide contest details
 
 Under "SPONSORS ADD INFO HERE" heading below, include the following:
@@ -65,10 +59,10 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - $71,250 USDC main award pot
 - $3,750 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2022-04-cudos-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2022-05-cudos-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts April 28, 2022 00:00 UTC
-- Ends May 04, 2022 23:59 UTC
+- Starts May 03, 2022 00:00 UTC
+- Ends May 09, 2022 23:59 UTC
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 

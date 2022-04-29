@@ -87,7 +87,7 @@ It currently supports bridging of CUDOS tokens between the Ethereum and Cudos ec
 - CUDOS Network supports sending the native Cudos token to an EMV based network.
 - CUDOS Network Gravity Bridge is bidirectional. 
 - CUDOS Network Gravity Bridge accepts transactions verified only by preaproved set of validators.
-- Batches are automaticaly send every X blocks.
+- Batches are automaticaly sent every X blocks.
 - Minimum amount and minimum fee are required for a transfer. Those values can be changed only by admin defined in ``CudosAccessControls``.
 - Every user can bridge tokens.
 ## Example flows
@@ -95,11 +95,11 @@ It currently supports bridging of CUDOS tokens between the Ethereum and Cudos ec
 ### Token transfer
 
 Usage example:
-#### Ethreum to Cudos Network
+#### Ethereum to Cudos Network
 1. User sends 50 CUDOS to the Gravity.sol specifying the receiver address via the ``SendToCosmos``. The address is a Cudos network address.
 2. Validators on the Cudos chain see that this has happened and mint 50 CUDOS for the address you specified on the Cudos chain.
 
-#### Cudos Network to Ethreum
+#### Cudos Network to Ethereum
 1. User wants to send 50 CUDOS with the gravity module to an Ethereum address. Calling the ``send-to-eth`` method they specify an Ethereum address and amount.
 2. Validators on the Cudos chain lock the Cudos token in the gravity module and unlock 50 CUDOS on the Ethereum Network.
 

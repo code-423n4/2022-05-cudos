@@ -111,10 +111,6 @@ ERC-20 Cudos token contract.
 
 Access controls contract managing user roles. Gravity.sol verifies ceraiain functions access based on the user defined roles. 
 
-# Areas to focus
-
-TBD
-
 
 # Build
 
@@ -131,6 +127,10 @@ Bridge user doc: https://docs.cudos.org/learn/gravity-bridge.html
 
 Network resources: https://docs.cudos.org/
 
-Token transfer app: https://bridge.testnet.cudos.org/
+# Test deployments
 
-Deployed contracts: TBD
+Gravity contracts: [0x8f8baFF99FCe5F6Df2abc073A55aB69D8aF13D22](https://rinkeby.etherscan.io/address/0x8f8baFF99FCe5F6Df2abc073A55aB69D8aF13D22)
+
+Block Explorer:  [http://34.132.35.39:3000/](http://34.132.35.39:3000/)
+
+Bridge UI:  [http://34.132.35.39:4000/](http://34.132.35.39:4000/)

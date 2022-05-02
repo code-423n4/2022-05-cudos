@@ -1,0 +1,8 @@
+[workspace]
+members = ["orchestrator", "cosmos_gravity", "ethereum_gravity", "gravity_utils", "proto_build", "test_runner", "gravity_proto", "relayer", "gbt"]
+default-members = ["gbt"]
+
+[patch.crates-io]
+deep_space = { git = "https://github.com/althea-net/deep_space", rev = "68d743331959e45dd789a62852c6eacfb19041f3" }
+cosmos-sdk-proto = { git = "https://github.com/christianborst/cosmos-rust", rev = "af39fcf9e5599d28075bd0be1b3540e3622f1a91" } 
+

@@ -39,24 +39,24 @@ Usage example:
 
 # Gravity module
 
-The [Gravity module](https://github.com/cosmos/gravity-bridge//tree/main/module/x/gravity/spec) is resposible for handling all transactions in the Cudos Network related to the bridge.
+The [Gravity module](https://github.com/code-423n4/2022-05-cudos/tree/main/module/x/gravity/spec) is resposible for handling all transactions in the Cudos Network related to the bridge.
 
 # Smart Contracts
 
 The following contracts are in-scope for the audit.
 ### Contracts
-#### [Gravity.sol](https://github.com/CudoVentures/cosmos-gravity-bridge/blob/cudos-master/solidity/contracts/Gravity.sol) (~600 sloc)
+#### [Gravity.sol](https://github.com/code-423n4/2022-05-cudos/tree/main/solidity/contracts/Gravity.sol) (~600 sloc)
 
 Stores a real time representation of the validator set of the Cudos Network. For optimisation hash is representing the full validator set and voting power. This contract's events are tracked by the oracle component of the bridge in order to perform actions triggered on the Ethereum network on the Cudos Network. 
 
-#### [CosmosToken.sol](https://github.com/CudoVentures/cosmos-gravity-bridge/blob/cudos-master/solidity/contracts/CosmosToken.sol) (~15 sloc)
+#### [CosmosToken.sol](https://github.com/code-423n4/2022-05-cudos/tree/main/solidity/contracts/CosmosToken.sol) (~15 sloc)
 
 ## Out of scope contracts
-#### [CudosToken.sol](https://github.com/CudoVentures/cudos-token/blob/master/contracts/CudosToken.sol)
+#### [CudosToken.sol](https://github.com/CudoVentures/cudos-eth-token-contract/blob/main/contracts/CudosToken.sol)
 
 ERC-20 Cudos token contract. 
 
-#### [CudosAccessControl.sol](https://github.com/CudoVentures/cudos-token/blob/master/contracts/CudosAccessControls.sol ) (~70 sloc)
+#### [CudosAccessControl.sol](https://github.com/CudoVentures/cudos-eth-token-contract/blob/main/contracts/CudosAccessControls.sol) (~70 sloc)
 
 
 Access controls contract managing user roles. Gravity.sol verifies ceraiain functions access based on the user defined roles. 
@@ -67,7 +67,7 @@ Access controls contract managing user roles. Gravity.sol verifies ceraiain func
 For local builds you can use the [Cudos Builders](https://github.com/CudoVentures/cudos-builders)
 # References
 
-Token repo: https://github.com/CudoVentures/cudos-token
+Token repo: https://github.com/CudoVentures/cudos-eth-token-contract
 
 Cudos-noded repo: https://github.com/CudoVentures/cudos-node
 
